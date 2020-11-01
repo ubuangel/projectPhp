@@ -32,6 +32,9 @@ body{
 		 background-color:var(--secundario);
 }	
 
+.bg-blanco{
+	background-color:white;
+}
 .sombra {
      -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,.5);
      -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,.5);
@@ -95,12 +98,19 @@ legend span{
 }
 
 .campo{
-		/* padding: .5rem 0;  */
+		 padding: .5rem 0;  
 	}
 .campo label{
 	
 	font-size:1.2rem;/* hacer feunte un poco mas grande*/
 	}
 	/*llenar ese esdpacio puede usarse flexbox */
-	.campo input [type="text"]	
-	.campo input [type="tel"]
+.campo input[type="text"],
+.campo input[type="tel"] {
+     width:100%;
+     border:none;
+     padding: .5rem;
+     height: 3rem;
+     margin-top: .5rem;
+     font-size: 1.2rem;
+}
