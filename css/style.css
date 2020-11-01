@@ -96,10 +96,18 @@ legend span{
 		flex: 0 0 calc(33.3% - 1rem );
 	}
 }
-
+.campo label{
+	font-size:1.2rem;
+}
 .campo{
 		 padding: .5rem 0;  
 	}
+	
+	
+.enviar { /*puso el boton al extremo*/
+     display: flex;
+     justify-content: flex-end;
+}	
 .campo label{
 	
 	font-size:1.2rem;/* hacer feunte un poco mas grande*/
@@ -114,3 +122,104 @@ legend span{
      margin-top: .5rem;
      font-size: 1.2rem;
 }
+
+.contactos{
+	padding:2rem;
+	margin-top:3rem;
+}
+
+.contenedor-contactos	{
+	max-width: 800px;
+	
+}
+
+.buscador{
+	width:100%; /* tome etodo el espacio que haigadisponible*/
+	height: 4rem;
+	pading:1rem;
+	  border: 1px solid #e1e1e1;
+	   margin: 2rem 0;
+	
+}
+.contenedor-tabla {
+     overflow: scroll;
+}
+
+.contenedor-contactos{
+	
+	max-width: 800px;
+	margin: 4rem auto 0 auto;
+}
+
+.total-contactos{
+	font-family: var(--fuentesecundaria);
+	margin:2rem 0;
+	text-align:center;
+	color:var(--primario);
+	font-size: 2rem;
+}
+.total-contactos span{
+	font-size:3rem;
+	 font-weight: 900;
+	
+}
+.listado-contactos{
+	width:100%;
+	margin-top:1rem;
+	border-collapse:collapse;
+}
+.listado-contactos thead{
+
+	background-color:var(--primario);
+	text-transform:uppercase;
+		color:white;
+		
+}
+
+.listado-contactos thead th{
+	padding:0.1rem 0;
+
+		
+}
+
+.listado-contactos thead td {
+	padding:0.5rem;
+	
+
+}
+.barra{
+	display:grid;
+	grid-template-columns:100px 1fr;
+	align-items:center;
+	
+}
+
+.btn{
+	font-size:2rem;
+	text-decoration:none;
+}
+.btn editar{
+	color:var(--secundario);
+}
+.btn borrar{
+	color:var(--primario);
+}
+.volver{/** pra el bpto **/
+  background-color: var(--secundario);
+     border-radius: 5px;
+     text-align: center;
+     color: #000000;
+     font-weight: 700;
+     font-size: 1.2rem;
+     padding: .5rem;
+	
+	
+}
+.listado-contactos tbody td:nth-child(4){
+	text-align:center;
+}
+.listado-contactos button {
+     background-color: transparent!important;
+     border:none;
+}
+
