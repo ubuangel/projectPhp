@@ -1,20 +1,26 @@
-<?php  include 'inc/layout/header.php';?>
-<div class="contednedor-barra">
+<?php  
+include 'inc/layout/header.php';
+?>
+
+<div class="contenedor-barra">
 
 	<h1>Agenda de contactos</h1>
 </div>
 
 <div class="bg-amarillo contenedor sombra">
-    <form action="#" id="contacto">
-    	<legend> Añadir un contacto <span> todos los campos son obligatorios</span></legend>
+    <form  id="contacto" action="#">
+    	     <legend>Añada un contacto <span>Todos los campos son obligatorios</span>
+    	      </legend>
+    	
     	<div class=" campos">
+    	
     		<div class="campo">
     			<label for="nombre" >nombre</label>
     			<input type="text" placeholder="nombre contacto" id="nombre">
     		</div>
     		
     		<div class="campo">
-    			<label for="nombre" >Empresa</label>
+    			<label for="empresa" >Empresa</label>
     			<input type="text" placeholder="nombre contacto" id="Empresa">
     		</div>
     		
@@ -23,11 +29,13 @@
     			<input type="tel" placeholder="nombre contacto" id="nombre">
     		</div>
     		
-    		<div class="campo enviar">
-    			<input type="submit" value="Anadir" >
-    		</div>
     	
-    	 </div>
+        	<div class="campo enviar">
+        		<input type="submit" value="Anadir" >
+        	</div>
+        	
+    	</div>
+    	
     </form>
 
 </div>

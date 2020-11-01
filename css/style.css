@@ -1,6 +1,106 @@
+/* utiliazndo csutom properti */
+:root{
+	--primario:#C21858;
+	--secundario:#FFC107;
+	
+	--coloroscuro:rgb(156, 10, 69);
+	--fuenteprimaria:'Arial', Helvetica ,sans-serif;
+	--fuentesecundaria:'Poppins', sans-serif;
+}
 html {
      box-sizing: border-box;
 }
 *, *:before, *:after {
      box-sizing: inherit;
 }
+
+body{
+	
+	 background-color:var(--primario);
+	 font-family: var(--fuenteprimaria);
+	 
+}
+
+
+
+.contenedor {
+     max-width: 1100px;
+     margin: 0 auto;
+}
+
+.bg-amarillo{
+		 background-color:var(--secundario);
+}	
+
+.sombra {
+     -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,.5);
+     -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,.5);
+     box-shadow: 0px 2px 5px 0px rgba(0,0,0,.5);
+     border-radius: 10px;
+}
+
+h1,h2{
+	  font-family: var(	--fuentesecundaria);
+     text-align: center;
+     margin: 0;
+}
+
+h1{
+	 padding: 20px;
+     color: white;
+}
+
+h2{
+		font-size: 2rem;
+     color: var(--primario);
+}
+
+.contenedor-barra{
+	 background-color: var(--coloroscuro);
+}
+
+
+/* formulario*/
+form{
+	 padding: 3rem;
+     margin-top: 2rem;/* separacion barra y el ofrmualrio */
+}
+
+form legend {
+     font-family: var(--fuentesecundaria);
+     font-size: 2rem;
+     text-align: center;
+     
+}
+
+
+legend span{
+     font-size: 1rem;
+     margin-top: 1rem;
+    
+    margin-bottom: 2rem;
+     clear: both; /* estos dos juntos elelent osimpre va estar abjo de legend */
+     display: block;
+	
+	
+}
+@media (min-width:768px) {
+	.campos{
+		display:flex;
+		justify-content: space-between;
+	}
+	.campo{
+		flex: 0 0 calc(33.3% - 1rem );
+	}
+}
+
+.campo{
+		/* padding: .5rem 0;  */
+	}
+.campo label{
+	
+	font-size:1.2rem;/* hacer feunte un poco mas grande*/
+	}
+	/*llenar ese esdpacio puede usarse flexbox */
+	.campo input [type="text"]	
+	.campo input [type="tel"]
