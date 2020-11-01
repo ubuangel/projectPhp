@@ -29,14 +29,104 @@ include 'inc/layout/header.php';
     			<input type="tel" placeholder="nombre contacto" id="nombre">
     		</div>
     		
+    		</div>
     	
         	<div class="campo enviar">
         		<input type="submit" value="Anadir" >
         	</div>
         	
-    	</div>
+    	
     	
     </form>
+
+</div>
+
+<div class="bg-blanco contenedor sombra contactos">
+    <div class="contenedor-contactos">
+    	<h2>contactos</h2>
+    	<input type="text" id="buscar"class="buscador sombra" placeholder="buscar contactos...">
+    	
+    	
+    	<p class="total contactos"><span>2</span>Contactos</p>
+    	<div class="contenedor-tabla">
+    		<table id="listado-contactos">
+        		<thead>
+            		<tr>
+            			<th>Nombre</th>
+            			<th>Empresa</th>
+            			<th>Telefono</th>
+            			<th>Acciones</th>
+            		</tr>
+            		
+        		</thead>
+        		
+        		<tbody>
+        		
+            		<tr>
+            			<td>Juan </td>
+            			<td>Udemy </td>
+            			<td>2323543</td>
+            			<td>
+            				<a class="btn-editar btn" href="#">
+            				
+            					<i class="fas fa-pen-square"></i>
+            				</a>
+            				
+            				<button type="button">
+            					<i class="fas fa-trash-alt"></i>
+            				</button>
+            			
+            			 </td>
+            			
+            			
+            		</tr>
+            		
+            		
+            				<tr>
+            			<td>Juan </td>
+            			<td>Udemy </td>
+            			<td>2323543</td>
+            			<td>
+            				<a class="btn-editar btn" href="#">
+            				
+            					<i class="fas fa-pen-square"></i>
+            				</a>
+            				
+            				<button type="button">
+            					<i class="fas fa-trash-alt"></i>
+            				</button>
+            			
+            			 </td>
+            			
+            			
+            		</tr>
+            		
+            		
+            				<tr>
+            			<td>Juan </td>
+            			<td>Udemy </td>
+            			<td>2323543</td>
+            			<td>
+            				<a class="btn-editar btn" href="#">
+            				
+            					<i class="fas fa-pen-square"></i>
+            				</a>
+            				
+            				<button type="button">
+            					<i class="fas fa-trash-alt"></i>
+            				</button>
+            			
+            			 </td>
+            			
+            			
+            		</tr>
+        		</tbody>
+        		
+    		</table>
+    	</div>
+    	
+    </div>
+
 
 </div>
 
