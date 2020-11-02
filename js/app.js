@@ -46,3 +46,12 @@ function mostrarNotificacion(){
 		}, 3000);
 	}, 100);//sper una dcimaparte de un segundo
 }
+/*
+error que se obtuv
+
+Uncaught TypeError: document.querySelector(...) is null
+leerformulario http://localhost/projectPhp/js/app.js:15
+eventListeners http://localhost/projectPhp/js/app.js:6
+<anonymous> http://localhost/projectPhp/js/app.js:3
+
+*/
