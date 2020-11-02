@@ -7,6 +7,7 @@ eventListeners();
 function eventListeners(){
 //	formularioContactos.addEventListener('submit',leerformulario);//llamar emediatamentemente ejecute le codigo
 	console.log();
+	estaen larama1 ?
 }
 
 
