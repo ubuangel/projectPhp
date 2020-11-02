@@ -223,3 +223,14 @@ legend span{
      border:none;
 }
 
+.notificaion{
+	position:fixed;
+	top:1rem;
+	right:1rem;
+	padding:1rem 3rem;
+	opacity:0;
+	
+}
+.visible{
+	opacity:1;
+}
